@@ -1,0 +1,88 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #5c82a8;
+  margin: 0;
+}
+
+.App{
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #333;
+}
+
+.cientifico-card {
+  display: flex;
+  border: 3px solid #796060;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  background-color: #ffffff;
+}
+
+.avatar-container {
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-container {
+  flex: 1;
+}
+
+.info-container h2 {
+  color: #265e96;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.info-container p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.premios-lista {
+  color: black;
+  margin-top: 15px;
+}
+
+.premios-lista ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.premios-lista li {
+  margin: 3px 0;
+  color: #666;
+}
+
+.cientificos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  height: 40px;
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: #5c82a8;
+  color: black;
+}
